@@ -1,0 +1,53 @@
+.bookings {
+    width: 1000px;
+    padding: 30px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #000000;
+  }
+  
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cancel-button {
+    background-color: #f54242;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upcoming-bookings {
+    margin-top: 20px;
+    background-color: #e0f7f7;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .past-bookings {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+  }
+  
