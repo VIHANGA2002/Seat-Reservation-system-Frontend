@@ -3,7 +3,7 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import './Booking.css';
-import '../NavBar/NavBar.css'; 
+import '../Navbar.css'; 
 
 const seats = Array.from({ length: 20 }, (_, i) => i + 1);
 

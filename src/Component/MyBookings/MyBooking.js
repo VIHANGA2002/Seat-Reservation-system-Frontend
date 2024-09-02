@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import './MyBooking.css';
-import '../NavBar/NavBar.css'; 
+import '../Navbar.css'; 
 
 function MyBooking() {
   return (
