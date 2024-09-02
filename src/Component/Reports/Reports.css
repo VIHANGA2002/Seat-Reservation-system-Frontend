@@ -1,0 +1,95 @@
+.bookings {
+    width: 1000px;
+    padding: 30px;
+  }
+
+  .bookings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .search-container {
+    position: relative;
+    width: 300px; 
+    margin-right: 180px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 8px 12px 8px 40px; 
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .search-bar::placeholder {
+    color: #999;
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 18px;
+    pointer-events: none;
+  }
+  
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #000000;
+  }
+  
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cancel-button {
+    background-color: #f54242;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
+  .past-bookings {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    width: 800px;
+  }
+  
+  .confirm-btn {
+    padding: 10px 20px;
+    background-color: #44974d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 85vh;
+  }
+  
